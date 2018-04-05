@@ -1,0 +1,172 @@
+/*start main Rulez*/
+body{
+
+}
+.container{
+	width:1200px;
+	margin:auto;
+	
+}
+/* Start Header*/
+.header{
+	/* background-image: url(../images/header-bg.jpg); */
+	background: #111111 url(../images/header-bg.jpg) no-repeat center;
+	background-size: cover;
+	/* height:1000px; */
+}
+.header .logo{
+	padding-top:150px;
+	color:#fff;
+	overflow:hidden;
+}
+.header .logo h1{
+	float:left;
+	
+}
+.header .logo  ul{
+	padding:15px 0px;
+	list-style:none;
+	padding-left:0;
+	float:right;
+	overflow:hidden;
+}
+.header .logo  ul li{
+	float:left;
+	padding-left:30px;
+	font-size: 0.8em;
+	letter-spacing: 1px;
+	text-transform:uppercase; 
+}
+.header .logo  ul li.active  a{
+	padding:20px;
+	background:#2651a8 ;
+		border-radius: 15px;
+		color: rgba(255,255,255,1);}
+.slider{text-align:center; margin-top:200px;}
+.slider h2{
+	color:#fff;
+	font-size:60px;
+	margin:0;
+	padding:0;
+}
+.slider p{
+	color:gray;
+	font-size:27px;
+	margin-top:5px;
+}
+ 
+/* End Header */
+
+/* Start features */
+.features {
+overflow:hidden;
+text-align:center;
+}
+.features h2{
+font-size:40px;
+margin:80px 0 0 0;
+padding:0;	
+}
+.features p{
+color:gray;
+font-size:20px;
+margin-top:5px;
+}
+.features .feat{
+	float:left;
+	width:33.33333%;
+	margin-top:3%;
+
+}
+.features .feat p{ font-family: 'Didact Gothic', sans-serif;
+font-size: 12pt;
+line-height: 180%;
+padding-left:15px;		}
+
+/* End Features */
+
+/*Start Welcome */
+.welcome{
+	background: #2651a8;
+	background-size: cover;
+	height:580px;
+	text-align:center;
+	
+}
+.welcome .add{
+	padding-top:150px;
+}
+.welcome .add h2{
+	color: rgba(255,255,255,0.80);
+	font-size: 2.7em;
+	
+	margin:0;
+	padding:0;
+}
+.welcome .add p{
+line-height: 180%;
+	color: rgba(255,255,255,0.60);
+	font-size: 1.4em;
+	margin:0;
+	padding:0;
+}
+.welcome .content{
+	padding-top:50px;
+}
+.welcome .content p{
+line-height: 150%;
+color: rgba(255,255,255,0.80);
+font-size: 1em;
+word-spacing:5px;
+margin:0;
+padding:0;
+}
+.welcome .content a{
+color:#fff;
+}
+.welcome .content a:hover{
+text-decoration:none;
+}
+.welcome .content button {
+background: #FFF;
+padding:20px 50px ;
+margin-top: 3em;
+
+}
+.welcome .content button a{
+color: #2651a8;
+text-decoration:none;
+}
+/* End Welcome */
+/* Start footer */
+.footer{
+background: #181818;
+background-size:cover;
+font-size: 1em;
+color: rgba(255,255,255,0.3);
+text-align:center;
+padding:70px 0px 70px 0px;
+}
+.footer a{
+text-decoration: none;
+color: rgba(255,255,255,0.6);
+}
+/* End footer */
+/*  Start My framework */
+.button{
+	color:#fff;
+	background-color:#1C5ACC;
+	border:1px solid #1C5ACC;
+	padding:20px 30px ;
+	border-radius: 6px;
+	font-weight: 700;
+	font-size: 1em;
+/* 	margin-top:50px; */
+	margin-top: 2em;
+	margin-bottom:80px;
+}
+.link{
+text-decoration: none;
+color:#fff;
+}
+/*  End My framework */
